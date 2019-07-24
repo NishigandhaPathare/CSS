@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+    .demo{
+        width: 90px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+<h2>vertical Form</h2>
+<form action="/action_page.php">
+<div class="from-group">
+<label for="email">Email</label>
+<input type="email" class="form-control" id="email" placeholder="enter your email" name="email">
+
+</div>
+<div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="pwd" placeholder="enter password" name="pwd">
+</div>
+<div class="radio">
+    <label > <input type="radio" name="optradio" checked>option 1</label>
+
+</div>
+<div class="radio">
+        <label > <input type="radio" name="optradio" checked>option 2</label>
+    
+    </div>
+    <div class="radio disabled">
+        <label > <input type="radio" name="optradio" disabled>option 2</label>
+    
+    </div>
+    
+    <label for="comment">Comment</label>
+    <textarea class="form-control" id="comment"  rows="5" ></textarea>
+    <br>
+    <label for="selection"> Select List</label><br>
+    <select class="from-control demo" id="selection"> 
+        <option >1</option>
+        <option >1</option>
+        <option >1</option>
+        <option >1</option>
+        <option >1</option>
+    </select>
+    <br>
+    <label for="selection">Multiple Select List</label><br>
+    <select multiple class="from-control demo" id="selection"> 
+        <option >1</option>
+        <option >1</option>
+        <option >1</option>
+        <option >1</option>
+        <option >1</option>
+    </select>
+    <br>
+
+<div class="checkbox">
+    <label > <input type="checkbox" name="remember">Remember Me</label>
+</div>
+<button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+    </div>
+</body>
+</html>
